@@ -12,7 +12,7 @@ module.exports = {
       max_memory_restart: '1G',
       env: {
         NODE_ENV: 'production',
-        PORT: 3006
+        PORT: 3004
       },
       error_file: './logs/prod-error.log',
       out_file: './logs/prod-out.log',
