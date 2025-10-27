@@ -7,7 +7,8 @@ module.exports = {
       interpreter: 'none',
       cwd: '/home/rozgarhub-amenties/htdocs/amenties.rozgarhub.co/Client-software',
       instances: 1,
-      autorestart: true,
+      autorestart: false,
+      stop_exit_codes: '0',
       watch: false,
       max_memory_restart: '1G',
       env: {

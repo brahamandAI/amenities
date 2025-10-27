@@ -69,7 +69,9 @@ else
 fi
 
 echo "🔄 Restarting application with PM2..."
-pm2 restart ecosystem.config.js
+pm2 stop ecosystem.config.js
+pm2 delete ecosystem.config.js
+pm2 start ecosystem.config.js
 
 echo "📊 PM2 Status:"
 pm2 status
