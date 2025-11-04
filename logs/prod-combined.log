@@ -1,0 +1,70 @@
+2025-10-27T15:23:40: npm warn cli npm v11.6.2 does not support Node.js v18.19.1. This version of npm supports the following node versions: `^20.17.0 || >=22.9.0`. You can find the latest version at https://nodejs.org/.
+2025-10-27T15:23:40: 
+2025-10-27T15:23:40: > railway-amenities@0.1.0 start
+2025-10-27T15:23:40: > next start -p 3004
+2025-10-27T15:23:40: 
+2025-10-27T15:23:41:    ▲ Next.js 14.0.4
+2025-10-27T15:23:41:    - Local:        http://localhost:3004
+2025-10-27T15:23:41: 
+2025-10-27T15:23:41:  ✓ Ready in 733ms
+2025-10-27T16:56:08: 
+2025-10-27T16:56:08: > railway-amenities@0.1.0 start
+2025-10-27T16:56:08: > next start -p 3004
+2025-10-27T16:56:08: 
+2025-10-27T16:56:09:    ▲ Next.js 14.0.4
+2025-10-27T16:56:09:    - Local:        http://localhost:3004
+2025-10-27T16:56:09: 
+2025-10-27T16:56:10:  ✓ Ready in 1375ms
+2025-11-04T12:39:25: 
+2025-11-04T12:39:25: > railway-amenities@0.1.0 start
+2025-11-04T12:39:25: > next start -p 3004
+2025-11-04T12:39:25: 
+2025-11-04T12:39:25:    ▲ Next.js 14.0.4
+2025-11-04T12:39:25:    - Local:        http://localhost:3004
+2025-11-04T12:39:25: 
+2025-11-04T12:39:26:  ✓ Ready in 305ms
+2025-11-04T14:26:46: 
+2025-11-04T14:26:46: > railway-amenities@0.1.0 start
+2025-11-04T14:26:46: > next start -p 3004
+2025-11-04T14:26:46: 
+2025-11-04T14:26:46:  ⨯ Failed to start server
+2025-11-04T14:26:46: Error: listen EADDRINUSE: address already in use :::3004
+2025-11-04T14:26:46:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-11-04T14:26:46:     at listenInCluster (node:net:1965:12)
+2025-11-04T14:26:46:     at Server.listen (node:net:2067:7)
+2025-11-04T14:26:46:     at /home/rozgarhub-amenties/htdocs/amenties.rozgarhub.co/Client-software/node_modules/next/dist/server/lib/start-server.js:279:16
+2025-11-04T14:26:46:     at new Promise (<anonymous>)
+2025-11-04T14:26:46:     at startServer (/home/rozgarhub-amenties/htdocs/amenties.rozgarhub.co/Client-software/node_modules/next/dist/server/lib/start-server.js:190:11)
+2025-11-04T14:26:46:     at nextStart (/home/rozgarhub-amenties/htdocs/amenties.rozgarhub.co/Client-software/node_modules/next/dist/cli/next-start.js:50:40)
+2025-11-04T14:26:46:     at /home/rozgarhub-amenties/htdocs/amenties.rozgarhub.co/Client-software/node_modules/next/dist/bin/next:157:54
+2025-11-04T14:26:46:     at async main (/home/rozgarhub-amenties/htdocs/amenties.rozgarhub.co/Client-software/node_modules/next/dist/bin/next:157:5) {
+2025-11-04T14:26:46:   code: 'EADDRINUSE',
+2025-11-04T14:26:46:   errno: -98,
+2025-11-04T14:26:46:   syscall: 'listen',
+2025-11-04T14:26:46:   address: '::',
+2025-11-04T14:26:46:   port: 3004
+2025-11-04T14:26:46: }
+2025-11-04T14:44:02: 
+2025-11-04T14:44:02: > railway-amenities@0.1.0 start
+2025-11-04T14:44:02: > next start -p 3004
+2025-11-04T14:44:02: 
+2025-11-04T14:44:02:    ▲ Next.js 14.0.4
+2025-11-04T14:44:02:    - Local:        http://localhost:3004
+2025-11-04T14:44:02: 
+2025-11-04T14:44:02:  ✓ Ready in 282ms
+2025-11-04T15:19:57: 
+2025-11-04T15:19:57: > railway-amenities@0.1.0 start
+2025-11-04T15:19:57: > next start -p 3004
+2025-11-04T15:19:57: 
+2025-11-04T15:19:57:    ▲ Next.js 14.0.4
+2025-11-04T15:19:57:    - Local:        http://localhost:3004
+2025-11-04T15:19:57: 
+2025-11-04T15:19:57:  ✓ Ready in 309ms
+2025-11-04T15:44:12: 
+2025-11-04T15:44:12: > railway-amenities@0.1.0 start
+2025-11-04T15:44:12: > next start -p 3004
+2025-11-04T15:44:12: 
+2025-11-04T15:44:13:    ▲ Next.js 14.0.4
+2025-11-04T15:44:13:    - Local:        http://localhost:3004
+2025-11-04T15:44:13: 
+2025-11-04T15:44:13:  ✓ Ready in 307ms
