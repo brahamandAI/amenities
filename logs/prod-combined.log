@@ -68,3 +68,32 @@
 2025-11-04T15:44:13:    - Local:        http://localhost:3004
 2025-11-04T15:44:13: 
 2025-11-04T15:44:13:  ✓ Ready in 307ms
+2025-11-11T14:54:01: 
+2025-11-11T14:54:01: > railway-amenities@0.1.0 start
+2025-11-11T14:54:01: > next start -p 3004
+2025-11-11T14:54:01: 
+2025-11-11T14:54:02:  ⨯ Failed to start server
+2025-11-11T14:54:02: Error: listen EADDRINUSE: address already in use :::3004
+2025-11-11T14:54:02:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-11-11T14:54:02:     at listenInCluster (node:net:1965:12)
+2025-11-11T14:54:02:     at Server.listen (node:net:2067:7)
+2025-11-11T14:54:02:     at /home/ubuntu/htdocs/amenities/node_modules/next/dist/server/lib/start-server.js:279:16
+2025-11-11T14:54:02:     at new Promise (<anonymous>)
+2025-11-11T14:54:02:     at startServer (/home/ubuntu/htdocs/amenities/node_modules/next/dist/server/lib/start-server.js:190:11)
+2025-11-11T14:54:02:     at nextStart (/home/ubuntu/htdocs/amenities/node_modules/next/dist/cli/next-start.js:50:40)
+2025-11-11T14:54:02:     at /home/ubuntu/htdocs/amenities/node_modules/next/dist/bin/next:157:54
+2025-11-11T14:54:02:     at async main (/home/ubuntu/htdocs/amenities/node_modules/next/dist/bin/next:157:5) {
+2025-11-11T14:54:02:   code: 'EADDRINUSE',
+2025-11-11T14:54:02:   errno: -98,
+2025-11-11T14:54:02:   syscall: 'listen',
+2025-11-11T14:54:02:   address: '::',
+2025-11-11T14:54:02:   port: 3004
+2025-11-11T14:54:02: }
+2025-11-11T14:57:50: 
+2025-11-11T14:57:50: > railway-amenities@0.1.0 start
+2025-11-11T14:57:50: > next start -p ${PORT:-3006}
+2025-11-11T14:57:50: 
+2025-11-11T14:57:50:    ▲ Next.js 14.0.4
+2025-11-11T14:57:50:    - Local:        http://localhost:3006
+2025-11-11T14:57:50: 
+2025-11-11T14:57:50:  ✓ Ready in 329ms

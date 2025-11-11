@@ -1,11 +1,11 @@
 module.exports = {
   apps: [
     {
-      name: 'amenties-rozgarhub',
+      name: 'amenties',
       script: 'npm',
       args: 'start',
       interpreter: 'none',
-      cwd: '/home/rozgarhub-amenties/htdocs/amenties.rozgarhub.co/Client-software',
+      cwd: '/home/ubuntu/htdocs/amenities',
       instances: 1,
       autorestart: false,
       stop_exit_codes: '0',
@@ -13,7 +13,7 @@ module.exports = {
       max_memory_restart: '1G',
       env: {
         NODE_ENV: 'production',
-        PORT: 3004
+        PORT: 3006
       },
       error_file: './logs/prod-error.log',
       out_file: './logs/prod-out.log',
