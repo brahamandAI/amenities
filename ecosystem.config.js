@@ -16,7 +16,7 @@ module.exports = {
       exp_backoff_restart_delay: 200, // exponential backoff
       env: {
         NODE_ENV: 'production',
-        PORT: 3006
+        PORT: 3008
       },
       error_file: './logs/prod-error.log',
       out_file: './logs/prod-out.log',
